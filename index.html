@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>三文精密有限公司｜首頁</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ 合併後正確的 style -->
   <style>
     body {
       font-family: "Noto Sans TC", sans-serif;
@@ -14,17 +16,32 @@
     }
 
     header {
-      background: #004080;
+      background-color: #004C99;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
       color: white;
-      padding: 1em;
-      text-align: center;
     }
 
     header img {
-      max-width: 150px;
+      width: 100px;
       height: auto;
-      display: block;
-      margin: 0 auto 10px;
+    }
+
+    .header-text {
+      text-align: left;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .header-text p {
+      margin: 5px 0 0;
+      color: #eee;
     }
 
     section {
@@ -54,99 +71,3 @@
     .client-logos {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-      gap: 20px;
-      justify-items: center;
-      align-items: center;
-      padding: 10px;
-    }
-
-    .client-logos img {
-      max-width: 120px;
-      height: auto;
-      object-fit: contain;
-      filter: grayscale(0.2); /* 可選，讓色彩一致 */
-    }
-
-    p {
-      text-align: center;
-      font-size: 16px;
-      margin: 5px 0 20px 0;
-    }
-
-    footer {
-      background: #eee;
-      padding: 1em;
-      text-align: center;
-      font-size: 0.9em;
-    }
-
-  <style>
-  header {
-    background-color: #004C99; /* 藍色背景，可依品牌色微調 */
-    padding: 40px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    color: white; /* 白色文字 */
-  }
-
-  header img {
-    width: 100px;
-    height: auto;
-  }
-
-  .header-text {
-    text-align: left;
-  }
-
-  .header-text h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-
-  .header-text p {
-    margin: 5px 0 0;
-    color: #eee; /* 淺白字體讓藍底更清楚 */
-  }
-</style>
-
-
-  <section>
-    <h2>關於我們(服務項目)</h2>
-    <p>※ 高精度可動組裝機構成品</p>
-    <p>※ 半成品組裝夾治具設計</p>
-    <p>※ 組裝測試異常分析與 ODM 模組優化</p>
-
-    <h2>三文給你心感受</h2>
-    <p>💡 豐富的加工 & 組裝經驗</p>
-    <p>💡 即時反饋，提升效率</p>
-    <p>💡 治具 & 加工件客製化服務 (逆向工程)</p>
-    <p>🔧 組裝不只是執行，我們提供專業優化建議！</p>
-  </section>
-
-  <section>
-    <h2>合作夥伴</h2>
-    <img src="Oriental_PNG.png" alt="Orientalmotor 東方馬達 logo" class="brand-logo">
-    <p>Orientalmotor (東方馬達)</p>
-
-    <img src="MOONS_PNG.png" alt="MOONS 鳴志 logo" class="brand-logo">
-    <p>MOONS (鳴志)</p>
-  </section>
-
-  <section>
-  <h2>我們的客戶</h2>
-  <img src="服務客戶群.png" alt="我們的客戶群 Logo 合圖"style="width: 90%; max-width: 600px;">
-</section>
-  
-  <section>
-    <h2>聯絡資訊</h2>
-    <p>Email: triangles.mmm@gmail.com<br>電話: 0931-076700</p>
-  </section>
-
-  <footer>
-    &copy; 2025 三文精密有限公司 版權所有
-  </footer>
-
-</body>
-</html>
